@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 from pprint import pprint
 
+    # 3
+
     # calls api and stores the data into the variable data
 data = requests.get("https://random-data-api.com/api/v2/users?size=50")
 
